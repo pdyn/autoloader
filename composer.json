@@ -1,0 +1,27 @@
+{
+    "name": "pdyn/autoloader",
+    "description": "A PSR-4 compliant autoloader.",
+    "type": "library",
+    "keywords": ["autoloader", "psr-4"],
+    "homepage": "https://pdyn.net",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "James McQuillan",
+            "email": "james@pdyn.net",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "support": {
+        "email": "support@pdyn.net"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pdyn\\autoloader\\": "."
+        }
+    }
+}
